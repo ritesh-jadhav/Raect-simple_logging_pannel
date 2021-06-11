@@ -1,9 +1,9 @@
-import './App.css';
-
+import React from 'react';
+import AddUser from './Components/User/AddUser';
 function App() {
   return (
     <div>
-      <h2>Hello buddy</h2>
+      <AddUser />
     </div>
   );
 }
